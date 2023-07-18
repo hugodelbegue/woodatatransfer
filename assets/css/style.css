@@ -1,0 +1,291 @@
+/* 
+*
+Part Header
+*
+*
+ */
+
+
+#wdt-header {
+    display: flex;
+    margin-right: 20px;
+    padding: 1rem;
+}
+
+#wdt-text-header {
+    width: 50%;
+    margin-right: 30em;
+}
+
+#wdt-logo-header {
+    width: 50%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#wdt-header img {
+    margin: 0;
+}
+
+
+/* 
+*
+Navbar
+*
+*
+ */
+
+
+#wdt-navbar {
+    margin-right: 20px;
+    -webkit-box-shadow: 0 10px 6px -6px #555;
+    -moz-box-shadow: 0 10px 6px -6px #555;
+    box-shadow: 0 10px 6px -6px #555;
+}
+
+#wdt-navbar button {
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14),
+    0 1px 5px 0 rgba(0, 0, 0, .12),
+    0 3px 1px -2px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    background-color: #f6f7f7;
+    font-size: large;
+}
+
+#wdt-navbar button.nav-link {
+    color: #7d7d7d;
+}
+
+#wdt-navbar button.nav-link.active {
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14),
+    0 1px 10px 0 rgba(0, 0, 0, .12),
+    0 2px 4px -1px rgba(0, 0, 0, .4);
+}
+
+#wdt-navbar-tabContent {
+    margin-right: 20px;
+}
+
+
+/* 
+*
+Part Global Content 
+*
+*
+ */
+
+
+#wdt-header-content{
+    margin-right: 20px;
+    padding: 0 10rem;
+}
+
+#wdt-line {
+    margin: 5rem auto 1rem auto;
+    width: 20rem;
+    height: 3px;
+    border-radius: 20px;
+    color: black;
+}
+
+#wdt-header-content p {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+#wdt-content {
+    padding: 0;
+}
+
+#wdt-content p {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+
+/*
+*
+Part Home Page
+*
+*
+*/
+
+
+#wdt-container-home {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+#wdt-container-home p, img {
+    margin: 0 auto 3rem auto;
+    text-align: center;
+}
+
+#wdt-container-home img {
+    width: 300px;
+}
+
+
+/* 
+*
+Part Orders Page
+*
+*
+*/
+
+
+#wdt-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#wdt-form p {
+    margin: 0 2rem;
+}
+
+#wdt-form p input {
+    width: 10rem;
+    background-color: #7f54b3;
+    border-color: #7f54b3;
+}
+
+#wdt-form-button {
+    display: flex;
+    justify-content: center;
+}
+
+#wdt-form-button p.submit {
+    padding: 0 0 1.5em 0;
+}
+
+#wdt-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    gap: 2rem;
+    margin: 0 20em;
+}
+
+#wdt-container div.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 700px;
+    max-width: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 1em 2em 1em;
+}
+
+#wdt-container div.card-body {
+    padding: 0;
+}
+
+#wdt-container div.card input#data-check {
+    border-radius: 50%;
+    margin: 0 3rem 0 0;
+    font-size: x-large;
+}
+
+#wdt-container div.card input#data-check::before {
+    float: none;
+    display: flex;
+    position: absolute;
+    left: 0.85em;
+    bottom: 0.3em;
+    width: 2em;
+    height: 2em;
+}
+
+
+/* 
+*
+Part Settings Page
+*
+*
+*/
+
+
+#wdt-container-settings {
+    display: grid;
+    justify-items: center;
+}
+
+#wdt-container-settings-cards{
+    display: grid;
+    justify-items: center;
+    margin-bottom: 10em;
+    padding: 1rem;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+#wdt-container-settings p {
+    max-width: 1300px;
+    margin-bottom: 1rem;
+    text-align: left;
+    width: 834.5px;
+}
+
+#wdt-container-settings div.card {
+    justify-content: center;
+    margin: 0;
+    min-width: 800px;
+    padding: 0;
+    max-height: 50px;
+}
+
+#wdt-container-settings div.card-body {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 5px 1rem;
+}
+
+#wdt-card-settings-middle.card {
+    margin: 20px 0 !important;
+}
+
+#wdt-container-settings div.wdt-text-button-settings {
+    display: flex;
+}
+
+#wdt-container-settings div.wdt-text-settings {
+    display: flex;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+#wdt-container-settings div.card a.btn.btn-primary {
+    background-color: #7f54b3;
+    border-color: #7f54b3;
+    font-size: x-small;
+}
+
+#wdt-container-settings div.card div.bi.bi-check2-circle {
+    color: #00a32a;
+}
+
+
+/*
+*
+Footer
+*
+*
+*/
+
+
+#wpfooter {
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+}
